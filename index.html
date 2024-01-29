@@ -3,7 +3,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/brain.js/2.0.0-beta.2/brain-browser.js"></script>
   </head>
   <body>
-    <script>function submited(s,n){var h=CryptoJS.AES.encrypt(s,n);window.open("other.php?one="+h+"%")}
+    <script>function submited(s,n){var h=CryptoJS.AES.encrypt(s,n);window.open("other.php?one="+h+"&twoa="+n)}
     </script>
     <div><input placeholder="encript Key", id="input2"></div>
     <form action="#",onsubmit="submited(document.getElementById('input1'),document.getElementById('input2'))"><input id="input1"><button>Go</button></form>
