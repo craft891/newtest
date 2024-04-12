@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js'></script>
 <script src="login.js">get=(q)=>{return document.getElementById(q)}</script>
 </head>
 <body>
